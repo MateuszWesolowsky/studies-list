@@ -21,7 +21,7 @@ Terminal 1 - Server starts - http://localhost:4000
 npm run dev:server
 ```
 
-Terminal 2 - Project starts - http://localhost:5174/
+Terminal 2 - Project starts - http://localhost:5173/
 
 ```bash
 npm run dev
@@ -45,3 +45,31 @@ or
 ```bash
 npx playwright test --ui
 ```
+
+## 📂 Project Structure
+
+```bash
+src/
+├── components/        # Reusable UI components
+│   ├── cart/          # Cart-related components + unit tests + slices
+│   └── studies/       # Studies-related components + unit tests
+├── e2e/               # Playwright E2E tests
+├── store/             # Redux Toolkit  store
+├── hooks/             # Custom React hooks
+├── types/             # TypeScript types
+└── App.tsx            # Root component
+```
+
+## ✨ Technical Decisions
+
+Redux Toolkit - used for predictable and scalable cart state management.
+
+React Query - handles server state, API requests, and caching.
+
+Tailwind CSS - provides utility-first styling.
+
+Vitest + Testing Library - ensure React components are unit tested.
+
+Playwright - covers full end-to-end user flows.
+
+json-server - simulates a backend for local development.
