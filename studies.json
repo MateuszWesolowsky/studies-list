@@ -1,0 +1,54 @@
+{
+  "studies": [
+    {
+      "id": "morf-1",
+      "name": "Morfologia krwi",
+      "code": "MORF",
+      "category": "Krew",
+      "price": 29.0,
+      "etaMinutes": 15,
+      "preparation": "Na czczo",
+      "description": "Podstawowe badanie krwi oceniające elementy morfotyczne."
+    },
+    {
+      "id": "morf-12",
+      "name": "Morfologia krwiii",
+      "code": "MORF",
+      "category": "Krew",
+      "price": 292.0,
+      "etaMinutes": 15,
+      "preparation": "Na czczo",
+      "description": "Podstawowe badanie krwi oceniające elementy morfotyczne."
+    },
+    {
+      "id": "morf-1252345",
+      "name": "jakies badanie",
+      "code": "abc",
+      "category": "kategoria",
+      "price": 12292.0,
+      "etaMinutes": 15,
+      "preparation": "Na czczo",
+      "description": "Podstawowe badanie krwi oceniające elementy morfotyczne."
+    },
+    {
+      "id": "tsh-1",
+      "name": "TSH",
+      "code": "TSH",
+      "category": "Hormony",
+      "price": 39.0,
+      "etaMinutes": 20,
+      "preparation": "Brak szczególnych wymagań",
+      "description": "Hormon tyreotropowy, ocena funkcji tarczycy."
+    },
+    {
+      "id": "gluc-1",
+      "name": "Glukoza",
+      "code": "GLU",
+      "category": "Krew",
+      "price": 19.0,
+      "etaMinutes": 10,
+      "preparation": "Na czczo",
+      "description": "Pomiar poziomu glukozy we krwi."
+    }
+  ]
+}

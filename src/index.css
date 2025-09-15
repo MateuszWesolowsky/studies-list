@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+.dark-mode {
+  background-color: #222;
+  color: white;
+}
+
+.dark-mode .bg-white {
+  background-color: #23272f;
+}
+.dark-mode select,
+.dark-mode option {
+  background-color: #23272f;
+  color: #eee;
+  border-color: #444950;
+}
+.dark-mode input::placeholder {
+  color: #bbb;
+}
